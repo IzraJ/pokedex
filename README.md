@@ -1,4 +1,5 @@
 # pokedex
 A pokedex with API integration
 
-<iframe src="https://giphy.com/embed/ZAdlsaQoJErq3Nna7C" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ZAdlsaQoJErq3Nna7C">via GIPHY</a></p>
+
+![pokedexgif](https://user-images.githubusercontent.com/98055348/186996398-e7b687f5-edde-4662-8e26-e31d505cd7c3.gif)
