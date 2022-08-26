@@ -1,0 +1,240 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html{
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(245, 249, 252);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+  height: 12vh;
+  text-align: center;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  background-color: rgb(229,	188,	47	);
+}
+header li, header h2{
+  float: left;
+
+}
+header button{
+  float:right;
+  color:white;
+  background-color: rgb(226,	52,	13	);
+  border: none;
+  padding: 6px 16px;
+  
+}
+
+header li{
+  padding-left: 20px;
+  padding-top: 8px;
+  
+
+  
+}
+
+header ul{
+  display:inline-block;
+}
+
+.form{
+  float: left;
+  width:50%;
+  
+  height: 75vh;
+  background-color: rgb(49,	167	,215	);
+}
+
+.phoneImg{
+  float: left;
+  width: 50%;
+  position:relative;
+  height: 75vh;
+  background-color: rgb(49,	167	,215	);
+}
+
+#pokidex{
+  height: 75vh;
+  width: 100%;
+  float: right;
+  
+}
+
+#displayDex{
+  width: 25%;
+  position: absolute;
+  top: 30%;
+  left:60%;
+  font-size: 2rem;
+}
+#displayDex h5{
+  font-size:1.6rem;
+  padding-top: 2vh;
+}
+#pokisprite {
+  height: 30vh;
+  width: 30vh;
+  position: absolute;
+  top: 28%;
+  left:18%;
+}
+.firstLink, .secondLink, .thirdLink, .fourthLink{
+  float: left;
+  width: 25%;
+  height: 40vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: rgb(49,	167	,215	);
+}
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  
+}
+header li{
+  list-style-type: none;
+}
+
+header h2{
+  color:white;
+  font:bolder;
+  font-size: 3rem;
+}
+
+header{
+  padding-top: 3vh;
+}
+
+h1, h2 , h3 , h4, p , a {
+  font-family: sans-serif, Arial, Geneva, Helvetica ;
+}
+
+.form h3{
+  color: rgb(229,	188,	47);
+  font-size: 1.5rem;
+}
+
+.form h1{
+  color: white;
+  font-size: 6rem;
+}
+form button{
+  color:white;
+  background-color: rgb(77,	173,	91		);
+  border: none;
+  padding: 6px 16px;
+}
+
+
+.form p{
+  color:rgb(47, 70, 89);
+  font-size: 1.6rem;
+}
+
+.form{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 7vh;
+}
+
+.form h3, .form h1, .form form{
+  padding-bottom: 4vh;
+}
+
+
+.firstLink .fa-solid, .secondLink .fa-solid, .thirdLink .fa-solid, .fourthLink .fa-solid{
+  padding-bottom: 2vh;
+  padding-top: 5vh;
+}
+
+.firstLink h4, .secondLink h4, .thirdLink h4, .fourthLink h4{
+  padding-bottom: 2vh;
+  font-size: 2rem;
+  color: white ;
+  font-weight:bold
+}
+
+.firstLink p, .secondLink p, .thirdLink p, .fourthLink p{
+color: rgb(226,	52	,13	);
+font-size: 1.4rem;
+padding-bottom: 2vh;
+}
+
+.fa-solid{
+  font-size: 2rem;
+}
+
+.firstLink a, .secondLink a, .thirdLink a, .fourthLink a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(47, 70, 89);
+}
+
+@media all and (max-width: 600px){
+  .form{
+    width: 100%;
+  }
+  .phoneImg{
+    width:100;
+  }
+
+.firstLink, .secondLink, .thirdLink, .fourthLink{
+  width:100%;
+}
+
+.phoneImg img{
+  
+  height: 75vh;
+  width: 100vw;
+  float:none;
+}
+
+header ul, header button{
+  visibility: hidden;
+}
+
+header h2{
+  margin-left: 35vw;
+}
+
+}
